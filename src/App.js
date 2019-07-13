@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import ReactPatternsAdvancedOne from "./components/ReactPatternsAdvanced_1";
+import ReactPatternAdvancedTwo from "./components/ReactPatternAdvancedTwo";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <ReactPatternsAdvancedOne />
         <hr />
         <hr />
+        <ReactPatternAdvancedTwo />
       </div>
     </div>
   );
