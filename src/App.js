@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
-import ReactPatternsAdvancedOne from "./components/ReactPatternsAdvanced_1";
+import ReactPatternsAdvancedOne from "./components/ReactPatternsAdvancedOne";
 import ReactPatternAdvancedTwo from "./components/ReactPatternAdvancedTwo";
+import ReactPatternAdvancedThree from "./components/ReactPatternAdvancedThree";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         <hr />
         <hr />
         <ReactPatternAdvancedTwo />
+        <hr />
+        <hr />
+        <ReactPatternAdvancedThree />
       </div>
     </div>
   );

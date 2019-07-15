@@ -115,7 +115,6 @@ export default class ReactPatternAdvancedTwo extends Component {
             </>
           )}
         </ToggleC>
-        <hr />
       </>
     );
   }

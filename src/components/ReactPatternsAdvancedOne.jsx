@@ -20,7 +20,9 @@ class Toggle extends Component {
 const MainContext = React.createContext({ on: true, toggle: () => {} });
 class ToggleB extends Component {
   static On = ({ children }) => (
-    <MainContext>{({ on }) => (on ? children : null)}</MainContext>
+    <MainContext.Consumer>
+      {({ on }) => (on ? children : null)}
+    </MainContext.Consumer>
   );
 
   static Off = ({ children }) => (
